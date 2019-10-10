@@ -1,0 +1,66 @@
+name: homestay
+description: A new Flutter application.
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  font_awesome_flutter:
+  carousel_pro:
+  cupertino_icons: ^0.1.2
+  image_picker: ^0.6.0+10
+  firebase_auth: ^0.11.1+6
+  cloud_firestore: ^0.12.2
+  toast: ^0.1.5
+  provider:
+  rflutter_alert: ^1.0.2
+  datetime_picker_formfield: ^0.2.0
+  flutter_multiselect: ^0.3.0
+  firebase_storage:
+  random_color:
+  flutter_rating_bar: ^1.3.0+1
+  #flutter_plugin_pdf_viewer:
+  http: ^0.12.0+2
+  path_provider:
+  downloads_path_provider: ^0.1.0
+  dio:
+  path:
+  file_picker: ^1.3.8
+  flutter_email_sender: ^2.0.3
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/home.jpg
+    - assets/images/stud.jpg
+    - assets/images/std.jpg
+    - assets/images/host.jpg
+    - assets/images/logo.png
+    - assets/images/profile_header_background.png
+    - assets/test.pdf
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/Muli-Regular.ttf
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+    - family: CustomIcon
+      fonts:
+        - asset: assets/fonts/call.ttf
+    - family: Monoton
+      fonts:
+        - asset: assets/fonts/Monoton-Regular.ttf
+
